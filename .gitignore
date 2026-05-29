@@ -1,0 +1,32 @@
+# See https://help.github.com/articles/ignoring-files/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+backend/cache/
+*.egg-info/
+.env
+
+# Node
+node_modules/
+frontend/.next/
+frontend/out/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets — never commit real keys
+.env
+.env.*
+!.env.example
+backend/.env
+frontend/.env.local
+frontend/.env*.local
